@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog-Clock</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script type="text/javascript">
+        function abc() {
+            document.bgColor = "green"
+        }
+
+        function def() {
+            document.bgColor = "salmon"
+        }
+
+        function ghi() {
+            document.bgColor = "chromeyellow"
+        }
+
+        function jkl() {
+            document.bgColor = "navyblue"
+        }
+    </script>
+</head>
+
+<body>
+    <h1>
+        <center><b><i> Utsa's Clock </i></b></center>
+    </h1>
+    <div id="ClockContainer">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+    <center><input type="button" value="green" onclick="abc()">
+        <input type="button" value="salmon" onclick="def()">
+        <input type="button" value="red" onclick="ghi()">
+        <input type="button" value="blue" onclick="jkl()"></center>
+</body>
+
+</html>
